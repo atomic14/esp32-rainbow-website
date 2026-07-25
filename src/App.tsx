@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import FAQ from './pages/FAQ'
 import Firmware from './pages/Firmware'
@@ -19,6 +20,7 @@ import BinaryToHeader from './pages/BinaryToHeader'
 import FileBrowserPage from './pages/FileBrowser'
 import Compliance from './pages/Compliance'
 import Pinout from './pages/Pinout'
+import TheSpectrum from './pages/TheSpectrum'
 
 // Create a new component to handle route changes and layout
 function Layout() {
@@ -61,6 +63,7 @@ function Layout() {
           <Route path="/tools/binary-to-header" element={<BinaryToHeader />} />
           <Route path="/file-browser" element={<FileBrowserPage />} />
           <Route path="/compliance" element={<Compliance />} />
+          <Route path="/alternatives/the-spectrum" element={<TheSpectrum />} />
           <Route path="*" element={
             <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center">
               <h1 className="text-4xl font-bold text-gray-100">404 - Page Not Found</h1>
@@ -68,6 +71,7 @@ function Layout() {
           } />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }

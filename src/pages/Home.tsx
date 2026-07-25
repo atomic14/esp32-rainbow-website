@@ -293,6 +293,104 @@ export default function Home() {
           </div>
         </div>
 
+        {/* More from atomic14 Section */}
+        <div className="mt-24 max-w-7xl mx-auto px-4 w-full">
+          <h2 className="text-3xl font-bold text-center text-gray-100 mb-12">More from atomic14</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+              <h3 className="text-xl font-semibold text-gray-100 mb-2">The atomic14 Blog</h3>
+              <p className="text-gray-300 mb-4">
+                Electronics projects, ESP32 experiments, and behind-the-scenes write-ups on how the
+                ESP32 Rainbow and other atomic14 projects are built.
+              </p>
+              <a
+                href="https://www.atomic14.com"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center text-indigo-400 hover:text-indigo-300"
+              >
+                Visit the blog
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+
+            <div className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+              <h3 className="text-xl font-semibold text-gray-100 mb-2">ESP32 Module Comparison</h3>
+              <p className="text-gray-300 mb-4">
+                Choosing an ESP32 for your own project? Compare Espressif modules side by side with
+                datasheet-sourced specs, pinouts, schematics and interactive 3D views.
+              </p>
+              <a
+                href="https://www.atomic14.com/esp32/"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center text-indigo-400 hover:text-indigo-300"
+              >
+                Compare modules
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+
+            <div className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+              <h3 className="text-xl font-semibold text-gray-100 mb-2">ESP32 Boards Guide</h3>
+              <p className="text-gray-300 mb-4">
+                A guide to popular ESP32 development boards, organised by category with specs,
+                pricing and practical use cases for makers.
+              </p>
+              <a
+                href="https://www.atomic14.com/esp32/boards/"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center text-indigo-400 hover:text-indigo-300"
+              >
+                Browse boards
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* The Spectrum Section */}
+        <div className="mt-24 max-w-7xl mx-auto px-4 w-full">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
+            <h2 className="text-3xl font-bold text-gray-100 mb-4">Want the Full-Size Experience?</h2>
+            <p className="text-gray-300 mb-6">
+              The ESP32 Rainbow is a pocket-sized tribute to the ZX Spectrum — but if you're after a
+              full-size recreation with the classic rubber keyboard, our friends (and competition!) at
+              Retro Games have you covered with The Spectrum. It pairs beautifully with an ESP32 Rainbow
+              on any retro desk.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 items-start">
+              <a
+                href="https://link.amazon/B09avH6WH"
+                target="_blank"
+                rel="sponsored noopener"
+                className="inline-flex items-center px-6 py-3 text-lg font-medium bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors duration-150"
+              >
+                The Spectrum on Amazon
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+              <Link
+                to="/alternatives/the-spectrum"
+                className="inline-flex items-center px-6 py-3 text-lg font-medium text-indigo-400 border-2 border-indigo-600 rounded-md hover:bg-gray-700 transition-colors duration-150"
+              >
+                Learn more
+              </Link>
+            </div>
+            <p className="text-gray-500 text-sm mt-4">
+              As an Amazon Associate we earn from qualifying purchases.
+            </p>
+          </div>
+        </div>
+
         {/* Support Section - Now after Games Catalog */}
         <div className="mt-24 max-w-7xl mx-auto px-4">
           <div className="p-6 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
