@@ -361,10 +361,10 @@ export default function Home() {
           <div className="p-8 bg-gray-800 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-3xl font-bold text-gray-100 mb-4">Want the Full-Size Experience?</h2>
             <p className="text-gray-300 mb-6">
-              The ESP32 Rainbow is a pocket-sized tribute to the ZX Spectrum — but if you're after a
-              full-size recreation with the classic rubber keyboard, our friends (and competition!) at
-              Retro Games have you covered with The Spectrum. It pairs beautifully with an ESP32 Rainbow
-              on any retro desk.
+              The ESP32 Rainbow is a hackable, open-source tribute to the ZX Spectrum built for makers —
+              but if you're after a full-size recreation with the classic rubber keyboard, our friends
+              (and competition!) at Retro Games have you covered with The Spectrum. It pairs beautifully
+              with an ESP32 Rainbow on any retro desk.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 items-start">
               <a

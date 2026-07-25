@@ -40,8 +40,9 @@ export default function TheSpectrum() {
           <p className="text-xl text-gray-300 mb-8">
             We love the ZX Spectrum in all its forms — including the competition! The Spectrum from
             Retro Games Ltd is a full-size recreation of the classic 1982 machine, complete with the
-            iconic rubber keyboard. If the ESP32 Rainbow is the Spectrum in your pocket, The Spectrum
-            is the one under your TV.
+            iconic rubber keyboard. If The Spectrum is the classic reborn for your living room, the
+            ESP32 Rainbow is the one for hackers and makers — open source, expandable, and yours to
+            tinker with.
           </p>
           <AmazonButton label="Get The Spectrum on Amazon" />
           <p className="text-gray-500 text-sm mt-3">
@@ -91,9 +92,9 @@ export default function TheSpectrum() {
         <h2 className="text-2xl font-semibold text-gray-100 mb-4">The Spectrum vs ESP32 Rainbow</h2>
         <p className="text-gray-300 mb-4">
           Honestly? They complement each other. The Spectrum gives you the authentic full-size desk
-          experience on a big screen. The ESP32 Rainbow is a hackable, open-source, pocket-sized
-          machine with its own display, touch keyboard, and an expansion port for your own hardware
-          projects. Many of us have both on the desk.
+          experience on a big screen. The ESP32 Rainbow is a hackable, open-source machine with its
+          own display, touch keyboard, and an expansion port for your own hardware projects. Many of
+          us have both on the desk.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-left text-gray-300">
@@ -106,9 +107,9 @@ export default function TheSpectrum() {
             </thead>
             <tbody className="divide-y divide-gray-700">
               <tr>
-                <td className="py-2 pr-4 text-gray-400">Size</td>
-                <td className="py-2 pr-4">Full-size original</td>
-                <td className="py-2">Pocket-sized</td>
+                <td className="py-2 pr-4 text-gray-400">Aimed at</td>
+                <td className="py-2 pr-4">Plug-and-play retro gaming</td>
+                <td className="py-2">Hackers, makers and tinkerers</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 text-gray-400">Display</td>
